@@ -132,7 +132,7 @@ jobs:
 
       - name: Create Pull Request
         if: github.event.inputs.create-pr != 'false'
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v8
         with:
           title: "Automated rename: $OLD_NAME → $NEW_NAME"
           body: |
