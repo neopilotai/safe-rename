@@ -1,0 +1,24 @@
+{
+  "updatePackage": true,
+  "updateRemote": false,
+  "caseSensitive": false,
+  "dry": false,
+  "ignore": [
+    "node_modules/**",
+    "dist/**",
+    "build/**",
+    ".git/**",
+    "**/coverage/**",
+    "**/*.log",
+    "**/tmp/**"
+  ],
+  "include": [
+    "**/*.{ts,tsx,js,jsx}",
+    "**/*.{json,yml,yaml}",
+    "**/*.env*",
+    "**/Dockerfile*",
+    "**/docker-compose*",
+    "**/*.md"
+  ],
+  "concurrency": 10
+}
